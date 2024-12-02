@@ -46,24 +46,25 @@ This project is a Markov Chain-based Amazon review generator. It includes functi
 ### Features Overview
 
 - Generate Review
-  -- Button: Click "Generate Review" to call the /api/generate endpoint.
-  -- Displayed Information:
-    --- A randomly generated review (e.g., "This is a fantastic product!")
-    --- A randomized star rating (1-5 stars).
+  - Button: Click "Generate Review" to call the /api/generate endpoint.
+  - Displayed Information:
+    - A randomly generated review (e.g., "This is a fantastic product!")
+    - A randomized star rating (1-5 stars).
 - Review History
-  -- Displays: A list of previously generated reviews with their corresponding star ratings.
-  -- Dynamic Updates: Each newly generated review is added to the history in real-time.
+  - Displays: A list of previously generated reviews with their corresponding star ratings.
+   Dynamic Updates: Each newly generated review is added to the history in real-time.
 
 ### API Endpoints
 - The app uses an API endpoint internally for generating reviews.
   - Generate a Review
-    -- Endpoint: /api/generate
-    -- Method: GET
-    -- Response:
-      {
+    - Endpoint: /api/generate
+    - Method: GET
+    - Response:
+      `{
         "review": "This is a fantastic product! Highly recommend.",
         "starRating": 5
-      }
+      }`
+      
 ### Running Tests
 
 The project includes unit tests to verify the functionality of the Markov Chain generator and data loader. To run the tests, use the Test Explorer in Visual Studio or run the following command in the terminal:
