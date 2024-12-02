@@ -16,6 +16,21 @@ This project is a Markov Chain-based Amazon review generator. It includes functi
 - C#: Language for implementing the backend and front-end logic.
 - Bootstrap: For responsive styling.
 
+## Dataset
+
+The application uses a dataset file containing Amazon reviews to train the Markov chain model.
+
+### Dataset Location
+
+The dataset file (dataset.txt) is included in the project root directory. If you do not see this file, you can download it and place it in the project directory.
+
+### How It’s Used
+
+During application startup, the dataset.txt file is read and parsed.
+
+Review texts are used to train the Markov chain model for generating new reviews.
+
+
 ## Getting Started
 
 ### Prerequisites
@@ -27,6 +42,10 @@ This project is a Markov Chain-based Amazon review generator. It includes functi
 
 - Clone the repository: git clone https://github.com/saoriol/LoyalTechnicalAssessment.git
 - Navigate to the project directory: cd AmazonReviewGenerator
+
+### 3. Place the Dataset
+
+Ensure the dataset file (dataset.txt) is in the root directory of the project.
 
 ### Setup and Run the Project
 
